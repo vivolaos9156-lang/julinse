@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz - ທວນເສັງຈຸລິນຊີ</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Lao:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+  <main class="quiz-page">
+    <header class="topbar">
+      <a class="home-link" href="index.html">⌂ Home</a>
+      <div class="quiz-title">ທວນເສັງຈຸລິນຊີມື້ອື່ນເດີ່</div>
+      <div id="score" class="score">Score: 0</div>
+    </header>
+
+    <section class="quiz-card">
+      <div class="quiz-meta">
+        <strong id="progress">Question 1 / 129</strong>
+        <span id="percent">0%</span>
+      </div>
+      <div class="progress-track"><div id="progressBar"></div></div>
+
+      <div class="question-box">
+        <div class="question-label">QUESTION</div>
+        <h1 id="questionText">Loading...</h1>
+      </div>
+
+      <div id="choices" class="choices"></div>
+      <div id="feedback" class="feedback" aria-live="polite"></div>
+
+      <div class="bottom-actions">
+        <a class="secondary-btn" href="index.html">Exit</a>
+        <button id="nextBtn" class="primary-btn next-btn" type="button" disabled>Next</button>
+      </div>
+    </section>
+  </main>
+
+  <script src="data/questions.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
