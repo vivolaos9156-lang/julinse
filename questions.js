@@ -83,7 +83,7 @@ const QUESTIONS = [
       { "text": "IgD, IgE" },
       { "text": "IgA, IgE" }
     ],
-    "answer": "B"
+    "answer": "D"
   },
   {
     "id": 9,
